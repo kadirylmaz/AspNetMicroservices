@@ -25,6 +25,7 @@ namespace Catalog.API
         public IConfiguration Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
+        //docker-compose -f .\docker-compose.yml -f .\docker-compose.override.yml up -d
         public void ConfigureServices(IServiceCollection services)
         {
 
